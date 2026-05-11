@@ -11,4 +11,4 @@ Current areas of work:
 - automation of document and transcription workflows
 - public data analysis for strategic/geopolitical reading
 
-This profile documents ongoing experiments rather than finished products.
+This profile documents practical experiments in AI-assisted analysis, corpus workflows and public data interpretation.

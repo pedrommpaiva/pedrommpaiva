@@ -1,16 +1,14 @@
-## Hi there 👋
+# Pedro Paiva
 
-<!--
-**pedrommpaiva/pedrommpaiva** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I work on AI-assisted text analysis, corpus building, legal transcription workflows, historical corpora and strategic data analysis.
 
-Here are some ideas to get you started:
+Current areas of work:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- historical corpus processing
+- OCR cleanup and text normalization
+- semantic search with embeddings
+- RAG experiments over Portuguese historical texts
+- automation of document and transcription workflows
+- public data analysis for strategic/geopolitical reading
+
+This profile documents ongoing experiments rather than finished products.

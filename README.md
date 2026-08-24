@@ -1,36 +1,40 @@
 # Pedro Paiva
 
-I build practical, inspectable workflows for working with difficult text collections and public data.
+I work on difficult text collections and public data: judicial transcription, Portuguese public-contracting records, historical corpora, open geospatial and event data.
 
-My current work combines Python, AI-assisted analysis and careful source handling across Portuguese historical corpora, legal transcription workflows and strategic data analysis.
+## How these repositories are made
 
-## Current focus
+**The code here is built by AI systems under my direction. I do not write it.**
 
-- cleaning and structuring OCR-derived and archival text;
-- preserving metadata and provenance across corpus pipelines;
-- semantic search and retrieval-augmented generation (RAG);
-- automation for document and transcription workflows;
-- reproducible analysis of public event and geopolitical data;
-- evaluating AI output against retrieved source context.
+What I bring is the domain — I have transcribed judicial proceedings for over a decade — the formulation of the problem, and the verification of the output against the sources it claims to describe. That last part is most of the work. An AI will produce a pipeline that runs; whether it produced the right answer is a separate question, and answering it requires knowing the material.
 
-## Featured project
+I state this plainly because a GitHub profile is normally read as a claim to software engineering, and that would be a false claim. What these repositories document is a different competence: directing automated systems across domains I know well, and checking their output rigorously enough to publish the failures.
 
-### [AI Corpus Lab](https://github.com/pedrommpaiva/ai-corpus-lab)
+## Repositories
 
-An experimental Python workspace for turning TXT and OCR sources into inspectable corpora. It currently covers corpus inventory, sentence extraction, metadata assembly and overlapping chunks for future semantic retrieval.
+### [transcricao-automacao](https://github.com/pedrommpaiva/transcricao-automacao)
+Transcription and revision tooling for judicial proceedings in European Portuguese. Automatic transcription with faster-whisper, LanguageTool-assisted revision, track-changes analysis to find recurring error types. Comes directly from the work I do.
 
-## Working principles
+### [base-contratacao-publica](https://github.com/pedrommpaiva/base-contratacao-publica)
+The Portuguese public-contracting dataset — 246,809 rows for 2025 — turned into an auditable relational model with entity resolution. 9,625,551 cells verified against the source with zero differences. The published audit verdict is **FAILED**, naming three unresolved semantic errors.
 
-- sources should remain traceable;
-- raw material and processed outputs should stay separate;
-- automation should expose intermediate results for review;
-- generated analysis should be checked against its evidence;
-- public repositories should contain no confidential or restricted corpora.
+### [gdelt-briefings](https://github.com/pedrommpaiva/gdelt-briefings)
+A seven-step pipeline reducing a full day of GDELT 2.0 to a ranked set of news clusters, with the strategic-relevance weighting exposed in code rather than hidden in a model.
 
-## Building in public
+### [ruido-aeronautico-lisboa](https://github.com/pedrommpaiva/ruido-aeronautico-lisboa)
+Aircraft movement extraction for Lisbon airport via OpenSky and Eurocontrol OPDI, underpinning work on urban noise exposure. The README states plainly that the counts are a lower bound of unquantified margin.
 
-This profile documents applied experiments rather than polished products. The emphasis is on reproducible methods, transparent limitations and gradual improvement.
+### [corpus-salazar-rag](https://github.com/pedrommpaiva/corpus-salazar-rag)
+Semantic retrieval over the speeches and writings of António de Oliveira Salazar, built to retrieve and cite rather than to generate. The prohibition on impersonation is written into the system prompt itself.
+
+## What I try to do consistently
+
+- keep raw sources intact and separable from every transformation applied to them;
+- make intermediate results inspectable instead of collapsing a pipeline into one opaque step;
+- put subjective choices — thresholds, weights, classifications — in code where they can be argued with;
+- publish limitations and failed audits alongside results, because a report that only says it went well is not a verification;
+- keep confidential material out of public repositories entirely.
 
 ---
 
-Based in Portugal. Working primarily in Portuguese and English.
+Based in Lisbon. Background in History (NOVA FCSH). Working in Portuguese and English.
